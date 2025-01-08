@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.scss">
+  <script src="https://kit.fontawesome.com/9928432ef2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>
+    <input type="checkbox" name="" id="chk1">
+    <div class="logo">
+      <h1>Rajat Chauhan</h1>
+    </div>
+    <div class="search-box">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#pro">Project</a></li>
+        <li><a href="#ach">Skills</a></li>
+        <li><a href="#edu">Education</a></li>
+
+        <li><a href="mailt:rajatchauhan8954@gmail.com">Contact</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/rajat-chauhan-46b471200/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+        </li>
+        <li>
+          <div class="toggle-btn " id="btn">
+            <span>Dark</span>
+            <img src="moon.png">
+          </div>
+      </ul>
+      </li>
+
+    </nav>
+    <div class="menu">
+      <label for="chk1">
+        <i class="fa fa-bars"></i>
+      </label>
+    </div>
+  </header>
+
+  <div id="wrapper">
+
+    <div class="container">
+      <div class="hero-section">
+        <div class="hero-section-left">
+          <div class="hero-section-heading">Hi! Rajat Chauhan</div>
+
+          <div class="hero-section-heading hero-section-sub-heading">
+            I am a <span class="role"></span>
+          </div>
+
+          <div class="hero-section-description">
+            I’m a software developer and here is my portfolio website. Here you’ll
+            learn about my journey as a software developer.
+          </div>
+
+          <div class="btn-pink" id="btn"><a href="www.linkedin.com/in/rajat-chauhan-46b471200" target="_blank">Hire
+              me</a></div>
+          <!-- Modal Component -->
+
+          <div class="bottom-group">
+            <button onclick="openModal()" class="btn-share btn-card btn-pink">
+              <i class="fa-solid fa-share"></i>
+              <div>My Profiles</div>
+            </button>
+          </div>
+          <div class="modal">
+            <div class="modal-header">
+              <!-- <h1>Share My Profile</h1> -->
+              <div>
+                <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+              </div>
+            </div>
+            <div>
+              <h3 id="adjust">Watch My Profile</h3>
+              <div class="icon-containerfig">
+                <a href="#" class="iconone" id="facebook">
+                  <i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="iconone" id="twitter">
+                  <i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/chauhan_rajat__/" class="iconone" id="instagram">
+                  <i class="fa-brands fa-instagram"></i></a>
+                <a href="" class="iconone" id="whatsapp">
+                  <i class="fa-solid fa-code"></i></a>
+                <!-- <a href="#" class="iconone" id="telegram">
+          <i class="fa-brands fa-telegram"></i></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="overlay" onclick="closeModal()"></div>
+        </div>
+
+        <div class="hero-section-right">
+          <div class="user-image">
+            <img src="./images/userAsset/Rajat.jpg" class="user-img">
+          </div>
+          <div class="absolute icons icon-dots">
+            <img src="./images/userAsset/dots.png" alt="" />
+          </div>
+          <div class="absolute icons icon-cube">
+            <img src="./images/userAsset/cube.png" alt="" />
+          </div>
+          <div class="absolute icons icon-circle">
+            <img src="./images/userAsset/circle.png" alt="" />
+          </div>
+          <div class="absolute icons icon-zigzag">
+            <img src="./images/userAsset/zigzags.png" alt="" />
+          </div>
+          <div class="absolute icons icon-plus">
+            <img src="./images/userAsset/plus.png" alt="" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="project-section">
+      <h2 class="page-header" id="pro">Projects</h2>
+
+      <div class="project-container">
+        <div class="project-card" id="project1">
+          <div class="project-number project-number-right">01</div>
+          <div class="project-content project-content-left">
+
+            <div class="project-skills-container">
+              <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+              <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+              <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+            </div>
+
+            <h2 class="project-heading">Razorpay Landing Page</h2>
+
+            <p class="project-subHeading">It is a Razorpay Landing Page.
+            </p>
+            <div class="btn-grp">
+              <button class="btn-pink btn-project"><a href="" target="_blank"> Visit Site</a> </button>
+              <a href="#" target="_blank">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="" target="_blank"">
+                            <i title=" Live Link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="project2">
+          <div class="project-number project-number-left">02</div>
+          <div class="project-content project-content-right">
+            <div class="project-skill-container">
+              <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+              <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+              <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+              <!-- <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" /> -->
+            </div>
+            <h2 class="project-heading">Weather App</h2>
+            <p class="project-sub-heading">
+              This app is basically fetching data from open weather Api and showing location & weather.
+            </p>
+            <div class="btn-group">
+              <button class="btn-pink btn-project"><a href="#" target="_blank">Visit site</a></button>
+              <a href="#" target="_blank">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i title="Live Link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="project3">
+          <div class="project-number project-number-right">03</div>
+          <div class="project-content project-content-left">
+            <div class="project-skill-container">
+              <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+              <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+              <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+              <!-- <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" /> -->
+            </div>
+
+            <h2 class="project-heading">Portfolio</h2>
+            <p class="project-sub-heading">
+              A Dev Detective-Tool Fetches Data from github using github api.
+            </p>
+            <div class="btn-group">
+              <button class="btn-pink btn-project"><a href="#" target="_blank">Visit Site</a></button>
+              <a href="#" target="_blank">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i title="Live Link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="project4">
+          <div class="project-number project-number-left">04</div>
+          <div class="project-content project-content-right">
+            <div class="project-skill-container">
+              <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+              <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+              <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+              <img class="project-skill" src="./images/stack/Express.png" alt="" />
+              <img class="project-skill" src="./images/stack/MongoDB.svg" alt="" />
+              <img class="project-skill" src="./images/stack/React.png" alt="" />
+              <img class="project-skill" src="./images/stack/NodeJs.svg" alt="" />
+            </div>
+            <h2 class="project-heading">Major Edtech Project</h2>
+            <p class="project-sub-heading">
+              Full stack Edtech project
+            </p>
+            <div class="btn-group">
+              <button class="btn-pink btn-project"><a href="#" target="_blank">Visit Site</a></button>
+              <a href="#" target="_blank">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i title="Live Link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <h2 class="page-header" id="ach">SKILLS</h2>
+    <div class="cont">
+      <div class="card">
+        <div class="img">
+          <img src="Hakerrank.jpg">
+        </div>
+        <div class="top-text">
+          <div class="name">HakerRank</div>
+          <p>DSA In C++ or Python</p>
+        </div>
+        <div class="bottom-text">
+          <div class="text"> solved 2+ questions DSA </div>
+          <div class="btn">
+            <a href="#"> HakerRank profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="funda.JPG">
+        </div>
+        <div class="top-text">
+          <div class="name">Fundamentals</div>
+          <p>OS ,DBMS, OOPS & CN</p>
+        </div>
+        <div class="bottom-text">
+          <div class="text"> The most fundamental concepts in computer science are data, information, program, the
+            components of a computer system</div>
+          <div class="btn">
+            <a href="">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img">
+          <img src="webdev.jpg">
+        </div>
+        <div class="top-text">
+          <div class="name">Web Development</div>
+          <p>MERN Stack</p>
+        </div>
+        <div class="bottom-text">
+          <div class="text">Web development is the work involved in developing a website for the Internet. . HTML,
+            CSS,Tailwindcss, React, Angular NodeJs ,Express etc.</div>
+          <div class="btn">
+            <a href="#" target="_blank">MAJOR PROJECT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="page-head" id="edu">My Education</h2>
+    <section>
+      <p class="para">Master of Computer Application<br> 2023-25| 6.68 CGPA till now |<id id="bbd">CU Chandigarh</id>
+        <br><br>12<sup>th</sup> UP Board<br>2018-2019| 84% | <id id="rlb">Public Inter Collge </id>
+        <br><br>10<sup>th</sup> UP Board <br>2016-2017| 88% | <id id="rlb">Radha Inter Collge Dhampur</id>
+      </p>
+    </section>
+
+
+
+    <div id="skills" class="skills-container">
+      <!-- <div class="skill-fade-text">Skills</div> -->
+
+      <div class="skill-container-left">
+        <h2 class="skill-heading">
+          <span class="caps">M</span>e and
+          <br />
+          MyTech Stack
+        </h2>
+
+        <div class="skill-subHeading">
+          <p>
+            Hi Everyone My name is Rajat Chauhan I am a First Year
+            MCA student learning web development from last 2 months and I am looking for
+            development intern Currently working on HTML,CSS ,Javascript and Making Beautiful Projects and this
+            is my Portfolio website I hope you will like it.
+          </p>
+          <p>
+            I have just started a year ago as a web developer learner at code help.
+          </p>
+          <!-- <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem
+                quos ullam veritatis voluptates tenetur qui ipsa nulla culpa itaque?
+              </p> -->
+        </div>
+      </div>
+
+      <div class="skill-container-right">
+        <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+        <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+        <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/React.png" alt="" class="skills-logo" />
+        <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Bash.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/K8s.svg" alt="" class="skills-logo" />
+      </div>
+
+
+
+    </div>
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <li><a href="https://www.linkedin.com/in/rajat-chauhan-46b471200/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="#" target="_blank"> <i class="fa-brands fa-github"></i></a></li>
+        <li><a href="https://www.instagram.com/chauhan_rajat__/"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="mailto:rajatchauhan8954@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#pro">Project</a></li>
+        <li><a href="#ach">Skill</a></li>
+        <li><a href="#edu">Education</a></li>
+        <li><a href="mailto:rajatchauhan8954@gmail.com">Contact</a></li>
+      </ul>
+      <p>© 2024 PORTFOLIO || ALL Rights Reserved</p>
+    </footer>
+
+  </div>
+  <script src="./script.js"></script>
+  <!-- A JavaScript Typing Animation Library -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Web Developer",
+        "Programmer",
+        "Student",
+        "Learner",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+</body>
+
+</html>
